@@ -1,0 +1,214 @@
+/*Variables*/
+/*Mixins*/
+/*Placeholder class*/
+#home-link, .menu-list .menu-list--li .menu-list--li-link {
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-family: "Verdana", "Times New Roman", sans-serif;
+  text-transform: capitalize;
+  text-align: center; }
+
+.projects--h3, .about--h3, .contact--h3 {
+  color: black;
+  padding: 16px 0;
+  border-bottom: 0.5px solid lightgray;
+  text-transform: capitalize;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 400; }
+
+/*Main content*/
+body {
+  margin: 0;
+  padding: 0; }
+
+/*Navigation menu*/
+.menu {
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.17);
+  background-color: white;
+  color: black;
+  border-bottom: none; }
+
+.collapse-menu--button {
+  margin-top: 10px;
+  background-color: black; }
+
+#home-link {
+  margin: 10px 5px;
+  height: auto;
+  color: black;
+  padding: 10px; }
+  #home-link:hover {
+    background-color: #cccccc; }
+  #home-link span {
+    text-transform: uppercase;
+    font-weight: bold; }
+
+.menu-list {
+  margin: 10px; }
+  .menu-list .menu-list--li {
+    margin: 0;
+    padding: 0; }
+    .menu-list .menu-list--li .menu-list--li-link {
+      padding: 10px;
+      color: black; }
+      .menu-list .menu-list--li .menu-list--li-link:visited, .menu-list .menu-list--li .menu-list--li-link:active, .menu-list .menu-list--li .menu-list--li-link:hover {
+        color: black;
+        background-color: #cccccc; }
+
+/*Carousel section*/
+.carousel {
+  padding: 0 40px;
+  width: 83.33%;
+  margin: 0 8.33%; }
+  @media screen and (max-width: 1520px) {
+    .carousel {
+      margin: 0;
+      padding: 0;
+      width: 100%; } }
+  .carousel .carousel--div {
+    color: white;
+    height: auto;
+    background-image: url("../img/header-image1.jpg");
+    background-size: cover; }
+    .carousel .carousel--div .carousel--div-heading {
+      letter-spacing: 5px;
+      text-align: center;
+      margin: 0;
+      padding: 25.3% 0;
+      font-family: "Segoe UI", "Verdana", sans-serif;
+      font-weight: 400;
+      font-size: 36px; }
+      .carousel .carousel--div .carousel--div-heading .carousel--div-span {
+        opacity: 0.7;
+        background-color: black;
+        font-weight: bold;
+        padding: 10px 15px; }
+
+/*Projects section*/
+.projects {
+  padding: 40px 40px 0; }
+
+.projects--div {
+  margin: 0;
+  padding: 0;
+  padding: 30px 0; }
+  .projects--div .projects--div-project {
+    margin: 0;
+    padding: 0; }
+    .projects--div .projects--div-project img {
+      padding: 10px;
+      width: 100%; }
+    .projects--div .projects--div-project h6 {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 10px;
+      background-color: black;
+      color: white;
+      padding: 10px 15px;
+      font-family: "Verdana", "Times New Roman", sans-serif;
+      font-size: 15px;
+      text-transform: capitalize;
+      text-align: center; }
+
+/*About section*/
+.about {
+  padding: 10px 40px 0 40px; }
+  .about p {
+    color: black;
+    font-family: "Verdana", "Times New Roman", sans-serif;
+    font-size: 15px; }
+
+.about--div {
+  margin: 0;
+  padding: 0;
+  padding: 30px 0; }
+  .about--div .about--div-member {
+    margin: 0;
+    padding: 0; }
+    .about--div .about--div-member img {
+      padding: 10px;
+      width: 100%;
+      filter: grayscale(50%); }
+
+.member-information {
+  font-family: "Verdana", "Times New Roman", sans-serif;
+  padding: 10px; }
+  .member-information h4 {
+    font-size: 24px;
+    color: black;
+    text-transform: capitalize; }
+  .member-information h5 {
+    font-size: 15px;
+    font-weight: 100; }
+  .member-information p {
+    font-size: 15px; }
+  .member-information button {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    background-color: site-theme-color;
+    padding: 8px;
+    color: black;
+    border: none;
+    font-size: 15px;
+    width: 100%; }
+    .member-information button:hover {
+      background-color: #cccccc; }
+
+/*Contact section*/
+.contact {
+  padding: 20px 40px 40px;
+  font-family: "Verdana", "Times New Roman", sans-serif; }
+  .contact p {
+    font-size: 15px; }
+
+.contact-input {
+  font-size: 15px;
+  margin: 15px 0;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0; }
+
+.warning-message {
+  color: red;
+  font-size: 8px;
+  display: none; }
+
+.contact-button {
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 15px; }
+  .contact-button:hover {
+    background-color: site-theme-color-lighter; }
+
+#map {
+  width: 100%;
+  height: 450px; }
+
+/*Footer*/
+footer {
+  width: 100%;
+  background-color: black;
+  color: white; }
+  footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    padding: 30px 0;
+    text-align: center; }
+    footer p a {
+      color: white;
+      text-decoration: underline; }
+      footer p a:hover {
+        color: white; }
+
+/*# sourceMappingURL=main.css.map */
